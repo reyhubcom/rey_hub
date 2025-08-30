@@ -11,12 +11,12 @@ metadata:
   title:
     default: AstroWind
     template: '%s — AstroWind'
-  description: "\U0001F680 Blockchain Validator & Delegate Alt Coins."
+  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Rey Hub
+    site_name: AstroWind
     images:
       - url: '~/assets/images/default.png'
         width: 1200
