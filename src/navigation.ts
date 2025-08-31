@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Staking', href: 'https://linktr.ee/sakashop', target: '_blank' }],
+  actions: [{ text: 'Staking Crypto', href: 'https://linktr.ee/reystaking', target: '_blank' }],
 };
 
 export const footerData = {
