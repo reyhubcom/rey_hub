@@ -55,8 +55,7 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Buy Crypto',
-        
-        href: getPermalink('/homes/startup'),
+        href: 'https://github.com/arthelokyo/astrowind',
         target: '_blank',
         icon: 'tabler:wallet',
       },
