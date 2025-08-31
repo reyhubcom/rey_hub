@@ -34,15 +34,7 @@ const metadata = {
       { text: 'Learn more', href: '#features' },
     ]}
   >
-    <Features2
-    title="About us"
-    subtitle="We believe in the magic of turning dreams into stunning realities. Founded by passionate developers with a shared vision, we set out to simplify the website creation process. Our templates bring together the innovation of Astro 5.0 and the versatility of Tailwind CSS, enabling you to express your unique brand identity like never before."
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
-    <Fragment slot="subtitle">
+    <Fragment slot="title">
       Buy, <span class="hidden sm:inline">Sell,</span> Swap <span
         class="text-accent dark:text-white"></span
       > Coins
@@ -91,4 +83,29 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  </Layout>
+  
+
+  
+
+  
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        target: '_blank',
+        text: 'Get templates',
+        href: 'https://github.com/arthelokyo/astrowind',
+        icon: 'tabler:download',
+      },
+    ]}
+  >
+    <Fragment slot="title">Be a part of our vision</Fragment>
+
+    <Fragment slot="subtitle">
+      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
+      impact.
+    </Fragment>
+  </CallToAction>
+</Layout>
