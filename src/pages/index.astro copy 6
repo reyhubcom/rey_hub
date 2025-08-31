@@ -61,7 +61,15 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-  
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get template',
+        href: 'https://github.com/arthelokyo/astrowind',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+    ]}
   >
     <Fragment slot="title">
       Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
