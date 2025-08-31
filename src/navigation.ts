@@ -115,8 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Swap Coin', href: '' }],
-   href: getPermalink('/homes/buy'),
+  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
