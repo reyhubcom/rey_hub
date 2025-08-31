@@ -23,14 +23,23 @@ const metadata = {
 
   <Hero
     tagline=""
- 
+    actions={[
+      {
+        variant: 'primary',
+        target: '_blank',
+        text: 'Get templates',
+        href: 'https://github.com/arthelokyo/astrowind',
+        icon: 'tabler:download',
+      },
+      { text: 'Learn more', href: '#features' },
+    ]}
   >
     <Fragment slot="subtitle">
      Limitless Web3.0 <span class="hidden sm:inline"> Buy, sell, swap crypto:</span> Crypto Exchange<span
         class="text-accent dark:text-white"></span
       > 
 fast, secure,
-trusted 
+trusted since 2017
 
        <CallToAction
     actions={[
@@ -54,7 +63,15 @@ trusted
       startup's digital footprint, fostering credibility, and expanding your reach.
     </Fragment>
 
-   
+    <Fragment slot="image">
+      <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
+      <style is:inline>
+        lite-youtube {
+          margin: 0 auto;
+          max-width: 100%;
+        }
+      </style>
+    </Fragment>
   </Hero>
 
  
