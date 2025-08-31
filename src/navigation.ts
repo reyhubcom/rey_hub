@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Staking',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +57,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'DeFi',
       links: [
         {
           text: 'Lead Generation',
@@ -86,7 +86,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Wallet',
       links: [
         {
           text: 'Blog List',
@@ -111,7 +111,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
+      text: 'Tools',
       href: '#',
     },
   ],
